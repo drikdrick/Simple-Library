@@ -21,6 +21,17 @@ namespace _11317049_FedrickSiagian_uts.Controllers
             return View(array);
         }
 
+        public ActionResult dataPeminjaman()
+        {
+            Peminjaman[] array =
+            {
+                new Peminjaman{ID="11317049", Nama="Fedrick Siagian", Alamat="Tambunan", kodeBuku="B101", judulBuku="Everything is Fucked", pengarangBuku="Mark Manson"},
+                new Peminjaman{ID="11317048", Nama="Tommy Sitinjak", Alamat="Tambunan", kodeBuku="B102", judulBuku="C For Dummies", pengarangBuku="Dan Gookin"},
+                new Peminjaman{ID="11317047", Nama="Jo Sitorus", Alamat="Tambunan", kodeBuku="B103", judulBuku="Teach C Yourself in 21 Days", pengarangBuku="Peter Aitken, Bradley L. Jones"},
+            };
+            return View(array);
+        }
+
         [HttpGet]
         public ActionResult FormPesan()
         {
