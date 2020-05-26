@@ -1,0 +1,43 @@
+﻿@model _11317049_FedrickSiagian_uts.Models.Peminjaman[]
+
+@{
+    ViewBag.Title = "dataPeminjaman";
+}
+
+<h2>Data Peminjaman</h2>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>OLIS</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nama</th>
+                <th>Alamat</th>
+                <th>Kode Buku</th>
+                <th>Judul</th>
+                <th>Pengarang</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (_11317049_FedrickSiagian_uts.Models.Peminjaman x in Model)
+            {
+            <tr>
+                <td>@x.ID</td>
+                <td>@x.Nama</td>
+                <td>@x.Alamat</td>
+                <td>@x.kodeBuku</td>
+                <td>@x.judulBuku</td>
+                <td>@x.pengarangBuku</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
+

@@ -126,6 +126,7 @@
     </Compile>
     <Compile Include="Models\Buku.cs" />
     <Compile Include="Models\Peminjam.cs" />
+    <Compile Include="Models\Peminjaman.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -166,6 +167,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\FormPesan.cshtml" />
     <Content Include="Views\Home\Terimakasih.cshtml" />
+    <Content Include="Views\Home\dataPeminjaman.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
