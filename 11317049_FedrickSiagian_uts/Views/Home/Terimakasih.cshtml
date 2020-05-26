@@ -1,0 +1,26 @@
+﻿@model _11317049_FedrickSiagian_uts.Models.Peminjam
+
+@{
+    ViewBag.Title = "Terimakasih";
+}
+
+<h2>Terimakasih</h2>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>OLIS</title>
+</head>
+<body>
+    <div>
+        <h1>
+            Terimakasih, @Model.Nama
+        </h1>
+    </div>
+
+    <div>
+        @Html.ActionLink("Kembali", "Index")
+    </div>
+</body>
+</html>
