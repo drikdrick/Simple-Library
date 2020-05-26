@@ -1,7 +1,10 @@
-﻿
+﻿@model _11317049_FedrickSiagian_uts.Models.Buku[]
+
 @{
     ViewBag.Title = "Index";
 }
+
+<h2>Index</h2>
 
 <!DOCTYPE html>
 <html>
@@ -10,10 +13,28 @@
     <title>OLIS</title>
 </head>
 <body>
-    <div>
-        Welcome!
-        @Html.ActionLink("Pesan Sekarang", "FormPesan")
-    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Kode Buku</th>
+                <th>Judul</th>
+                <th>Pengarang</th>
+                <th>Tahun Terbit</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (_11317049_FedrickSiagian_uts.Models.Buku x in Model)
+            {
+                <tr>
+                    <td>@x.kodeBuku</td>
+                    <td>@x.judulBuku</td>
+                    <td>@x.pengarangBuku</td>
+                    <td>@x.tglTerbit</td>
+                    <td>@Html.ActionLink("Pesan", "FormPesan")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </body>
 </html>
-
