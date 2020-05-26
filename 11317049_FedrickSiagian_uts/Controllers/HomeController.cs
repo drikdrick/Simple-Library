@@ -27,9 +27,9 @@ namespace _11317049_FedrickSiagian_uts.Controllers
             return View();
         }
 
-        //public string index()
-        //{
-        //    return "Selamat Datang!";
-        //}
+        public ActionResult FormPesan()
+        {
+            return View();
+        }
     }
 }
