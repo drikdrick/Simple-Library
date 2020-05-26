@@ -13,7 +13,7 @@
     <title>OLIS</title>
 </head>
 <body>
-    <table border="1">
+    <table class="table">
         <thead>
             <tr>
                 <th>Kode Buku</th>
@@ -31,7 +31,7 @@
                     <td>@x.judulBuku</td>
                     <td>@x.pengarangBuku</td>
                     <td>@x.tglTerbit</td>
-                    <td>@Html.ActionLink("Pesan", "FormPesan")</td>
+                    <td><button class="form-control"> @Html.ActionLink("Pesan", "FormPesan")</button></td>
                 </tr>
             }
         </tbody>
