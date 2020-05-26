@@ -20,6 +20,17 @@ namespace _11317049_FedrickSiagian_uts.Controllers
             };
             return View(array);
         }
+
+        [HttpGet]
+        public ActionResult FormPesan()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult FormPesan(Models.Peminjam Peminjam)
+        {
+            return View("Terimakasih", Peminjam);
+        }
     }
     
 }
