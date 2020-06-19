@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Fedrick\IT DEL\Sem4\TekNEt\UTS\11317049_FedrickSiagian_uts\11317049_FedrickSiagian_uts\bin\11317049_FedrickSiagian_uts.dll.config
 D:\Fedrick\IT DEL\Sem4\TekNEt\UTS\11317049_FedrickSiagian_uts\11317049_FedrickSiagian_uts\bin\11317049_FedrickSiagian_uts.dll
 D:\Fedrick\IT DEL\Sem4\TekNEt\UTS\11317049_FedrickSiagian_uts\11317049_FedrickSiagian_uts\bin\11317049_FedrickSiagian_uts.pdb
@@ -77,3 +78,5 @@ D:\Fedrick\IT DEL\Sem4\TekNEt\UTS\11317049_FedrickSiagian_uts\11317049_FedrickSi
 D:\Fedrick\IT DEL\Sem4\TekNEt\UTS\11317049_FedrickSiagian_uts\11317049_FedrickSiagian_uts\obj\Debug\11317049_FedrickSiagian_uts.csproj.CopyComplete
 D:\Fedrick\IT DEL\Sem4\TekNEt\UTS\11317049_FedrickSiagian_uts\11317049_FedrickSiagian_uts\obj\Debug\11317049_FedrickSiagian_uts.dll
 D:\Fedrick\IT DEL\Sem4\TekNEt\UTS\11317049_FedrickSiagian_uts\11317049_FedrickSiagian_uts\obj\Debug\11317049_FedrickSiagian_uts.pdb
+=======
+>>>>>>> 45cb7a93aafb0a4d1d57e82aa79c6e8c0e2a9b97
