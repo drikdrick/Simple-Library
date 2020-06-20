@@ -1,4 +1,4 @@
-﻿@model _11317049_FedrickSiagian_uts.Models.Buku[]
+﻿@model IEnumerable<_11317049_FedrickSiagian_uts.Models.Buku>
 
 @{
     ViewBag.Title = "Index";
@@ -13,7 +13,7 @@
     <title>OLIS</title>
 </head>
 <body>
-    <table border="1">
+    <table class="table">
         <thead>
             <tr>
                 <th>Kode Buku</th>
@@ -24,14 +24,14 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (_11317049_FedrickSiagian_uts.Models.Buku x in Model)
+            @foreach (var x in Model)
             {
                 <tr>
                     <td>@x.kodeBuku</td>
                     <td>@x.judulBuku</td>
                     <td>@x.pengarangBuku</td>
                     <td>@x.tglTerbit</td>
-                    <td>@Html.ActionLink("Pesan", "FormPesan")</td>
+                    <td><button class="form-control"> @Html.ActionLink("Pesan", "FormPesan")</button></td>
                 </tr>
             }
         </tbody>

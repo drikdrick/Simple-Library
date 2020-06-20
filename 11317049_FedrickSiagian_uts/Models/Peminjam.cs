@@ -14,8 +14,5 @@ namespace _11317049_FedrickSiagian_uts.Models
         public string ID { get; set; }
         [Required(ErrorMessage = "Mohon masukkan Alamat anda.")]
         public string Alamat { get; set; }
-        [Required(ErrorMessage = "Mohon masukkan Nomor Telepon anda.")]
-        [RegularExpression("^[0-9]{10,13}$", ErrorMessage = "Format Nomor Telepon salah, Mohon hanya gunakan angka.")]
-        public string Phone { get; set; }
     }
 }

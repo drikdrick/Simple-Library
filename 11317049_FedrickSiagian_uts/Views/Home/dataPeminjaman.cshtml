@@ -1,4 +1,4 @@
-﻿@model _11317049_FedrickSiagian_uts.Models.Peminjaman[]
+﻿@model IEnumerable<_11317049_FedrickSiagian_uts.Models.Peminjaman>
 
 @{
     ViewBag.Title = "dataPeminjaman";
@@ -13,7 +13,7 @@
     <title>OLIS</title>
 </head>
 <body>
-    <table border="1">
+    <table class="table">
         <thead>
             <tr>
                 <th>ID</th>
@@ -25,15 +25,15 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (_11317049_FedrickSiagian_uts.Models.Peminjaman x in Model)
+            @foreach (var item in Model)
             {
             <tr>
-                <td>@x.ID</td>
-                <td>@x.Nama</td>
-                <td>@x.Alamat</td>
-                <td>@x.kodeBuku</td>
-                <td>@x.judulBuku</td>
-                <td>@x.pengarangBuku</td>
+                <td>@item.ID</td>
+                <td>@item.Nama</td>
+                <td>@item.Alamat</td>
+                <td>@item.kodeBuku</td>
+                <td>@item.judulBuku</td>
+                <td>@item.pengarangBuku</td>
             </tr>
             }
         </tbody>
